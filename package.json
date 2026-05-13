@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:web-mac": "tsc -b && vite build --config vite.screensaver.config.ts",
+    "build:screensaver": "bash ./mac-screensaver/build-screensaver.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },
